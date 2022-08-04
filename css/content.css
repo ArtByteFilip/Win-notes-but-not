@@ -1,0 +1,46 @@
+main {
+  height: 97%;
+}
+
+form {
+}
+
+input {
+  background-color: rgb(64, 64, 64);
+
+  width: 96%;
+  padding: 0.5rem 0rem 0.5rem 1rem;
+
+  border: none;
+}
+
+input::placeholder {
+  color: rbg(181, 181, 181);
+}
+
+input::placeholder:active {
+  color: rbg(114, 114, 114);
+}
+
+h2 {
+  font-size: 1.3em;
+  padding: 0.7rem 0;
+  color: white;
+}
+
+article {
+  background-color: rgb(51, 51, 51);
+  border-top: 0.2rem solid rgb(230, 185, 4) !important;
+  border-radius: 0.3rem;
+
+  width: 96%;
+
+  margin: 0.5em 0;
+  padding: 0.5rem 0rem 0.5rem 1rem;
+
+  border: none;
+}
+
+article:hover {
+  background-color: rgb(65, 65, 65);
+}

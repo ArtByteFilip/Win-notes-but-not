@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  color: rgb(238, 238, 238);
+
+  background-image: linear-gradient(
+    to right,
+    rgb(248, 113, 133),
+    rgb(244, 114, 182)
+  );
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  height: 40rem;
+  width: 30rem;
+
+  border: 2px solid black;
+  background-color: rgb(32, 32, 32);
+  /* border-radius: 0.75rem; */
+
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+main,
+aside {
+  padding: 0.6rem;
+}
